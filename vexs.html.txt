@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Follower Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>VexBolt Follower Tracker</h1>
+    <div id="follower-count">
+      <h2>Current Follower Count: <span id="current-followers">Loading...</span></h2>
+      <p>Followers lost per minute: <span id="follower-loss-rate">Calculating...</span></p>
+      <p>Time remaining until 11:59 PM EST: <span id="time-remaining">Loading...</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
